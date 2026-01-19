@@ -1,0 +1,20 @@
+{
+  "keywords": [
+    {
+      "keyword": "python3",
+      "color": "#ff4242",
+      "backgroundColor": "#A9CCE3",
+      "fontModifiers": [],
+      "showColor": true,
+      "showBackgroundColor": false
+    },
+    {
+      "keyword": "nmap",
+      "color": "#f985b4",
+      "backgroundColor": "#ecacdd",
+      "fontModifiers": [],
+      "showColor": true,
+      "showBackgroundColor": false
+    }
+  ]
+}

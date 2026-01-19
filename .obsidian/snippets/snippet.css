@@ -1,0 +1,8 @@
+.callout.is-collapsed .callout-content {
+  display: block !important;
+  height: 0;
+  overflow: hidden;
+  opacity: 0;
+  pointer-events: none;
+}
+
