@@ -4,17 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "ae82ed883dc152a6",
+        "id": "7140a70bfb91d31d",
         "type": "tabs",
         "children": [
           {
-            "id": "5fa5666f74a912b5",
+            "id": "a32e39ea96891bab",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. Information Gathering/Active Directory Enumeration/Bloodhound.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Bloodhound"
+            }
+          },
+          {
+            "id": "72e24fb30280e18a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Manual.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -22,17 +36,17 @@
             }
           },
           {
-            "id": "c1b4aa4849c8152a",
+            "id": "aa0afc5cee58f00f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5. Lateral Movement & Pivoting/Active Directory Lateral Movement/Pass-The-Certificate.md",
+                "file": "Methodologies/1. Reconnaissance & Host Discovery.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Pass-The-Certificate"
+              "title": "1. Reconnaissance & Host Discovery"
             }
           }
         ]
@@ -67,7 +81,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "spray",
+                "query": "enumdom",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -92,8 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "b5b299032ca936e7",
@@ -209,43 +222,44 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "5fa5666f74a912b5",
+  "active": "a32e39ea96891bab",
   "lastOpenFiles": [
-    "4. Post-Exploitation/Tools & Misc/Hashcat.md",
+    "1. Information Gathering/Active Directory Enumeration/Enumeration With Credentials.md",
     "Manual.md",
-    "4. Post-Exploitation/Tools & Misc/Password Policies Enumeration Windows.md",
+    "1. Information Gathering/Active Directory Enumeration/User Enumeration.md",
+    "1. Information Gathering/Active Directory Enumeration/Bloodhound.md",
+    "1. Information Gathering/Active Directory Enumeration/Enumerating Security Controls.md",
+    "Methodologies/1. Reconnaissance & Host Discovery.md",
+    "5. Lateral Movement & Pivoting/Active Directory Lateral Movement/Password Spraying & Credential Stuffing.md",
+    "1. Information Gathering/Active Directory Enumeration/Password Policy Enumeration.md",
+    "3. Exploitation/Active Directory Attacks/LLMNR & NBT-NS Poisoning.md",
+    "3. Exploitation/Service Exploitation/SMB 139,445.md",
+    "1. Information Gathering/Active Directory Enumeration/Hosts Enumeration.md",
+    "1. Information Gathering/Active Directory Enumeration",
+    "Methodologies/5. Windows Privilege Escalation Methodology.md",
+    "Methodologies/4. Linux Privilege Escalation Methodology.md",
+    "Methodologies/2. Web Server Methodology.md",
+    "Methodologies/3. Active Directory Methodology.md",
+    "2..md",
+    "Web.md",
+    "5. Lateral Movement & Pivoting/Pivoting/Pivoting Schema.canvas",
+    "5. Lateral Movement & Pivoting/Pivoting/Ligolo.md",
+    "5. Lateral Movement & Pivoting/Pivoting",
+    "3. Exploitation/Service Exploitation/SMTP 25,465,587.md",
+    "3. Exploitation/Service Exploitation/DNS 53.md",
+    "3. Exploitation/Service Exploitation/RDP 3389.md",
+    "3. Exploitation/Service Exploitation/MySQL 3306.md",
+    "3. Exploitation/Service Exploitation/MSSQL 1433,2433.md",
     "5. Lateral Movement & Pivoting/Active Directory Lateral Movement/Pass-The-Certificate.md",
-    "5. Lateral Movement & Pivoting/Linux Lateral Movement/Pass-The-Ticket from Linux.md",
-    "1. Information Gathering/Service Enumeration/DNS.md",
-    "5. Lateral Movement & Pivoting/Active Directory Lateral Movement/Pass-The-Ticket from Windows.md",
-    "5. Lateral Movement & Pivoting/Windows Lateral Movement/Pass The Hash.md",
-    "5. Lateral Movement & Pivoting/Windows Lateral Movement/Credential Hunting in Network Shares.md",
-    "5. Lateral Movement & Pivoting/Misc/Credentials Hunting in Network Traffic.md",
-    "home/vdarras/CPTS/Pasted image 20251003190710.png.md",
-    "home/vdarras/CPTS/Pasted.md",
+    "1. Information Gathering/Service Enumeration/MSSQL.md",
+    "3. Exploitation/Service Exploitation/FTP 21.md",
+    "3. Exploitation/Service Exploitation",
     "home/vdarras/CPTS",
     "home/vdarras",
     "home",
-    "5. Lateral Movement & Pivoting/Linux Lateral Movement/Credentials Hunting in Linux.md",
     "5. Lateral Movement & Pivoting/Misc",
-    "5. Lateral Movement & Pivoting/Linux Lateral Movement/Linux Authentication.md",
     "7. BloodyAD",
     "5. Lateral Movement & Pivoting/Linux Lateral Movement",
-    "5. Lateral Movement & Pivoting/Windows Lateral Movement/Credential Hunting in Windows.md",
-    "5. Lateral Movement & Pivoting/Windows Lateral Movement/LSASS Dump.md",
-    "5. Lateral Movement & Pivoting/Active Directory Lateral Movement",
-    "5. Lateral Movement & Pivoting/Active Directory Lateral Movement/NTDS.dit Dump.md",
-    "5. Lateral Movement & Pivoting/Windows Lateral Movement/SAM, SYSTEM and SECURITY Dump.md",
-    "5. Lateral Movement & Pivoting/Windows Lateral Movement/Attacking Credential Manager.md",
-    "3. Exploitation/Active Directory Attacks",
-    "5. Lateral Movement & Pivoting/Windows Lateral Movement",
-    "4. Post-Exploitation/Windows Privilege Escalation",
-    "5. Lateral Movement & Pivoting/Active Directory Lateral Movement/Password Spraying & Credential Stuffing.md",
-    "4. Post-Exploitation/Tools & Misc/Mouting Bitlocker Drive (.vhd).md",
-    "2. Pre-Exploitation/Password Wordlist Generation/Password Wordlist Generation.md",
-    "4. Post-Exploitation/Tools & Misc/John The Ripper.md",
-    "2. Pre-Exploitation/Tools/Searchsploit.md",
-    "2. Pre-Exploitation/Tools/MSFVenom.md",
-    "2. Pre-Exploitation/Tools/MSFConsole.md"
+    "5. Lateral Movement & Pivoting/Active Directory Lateral Movement"
   ]
 }

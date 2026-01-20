@@ -9,4 +9,13 @@ nmap --script ms-sql-info,ms-sql-empty-password,ms-sql-xp-cmdshell,ms-sql-config
 python3 mssqlclient.py Administrator@10.129.201.248 -windows-auth
 python3 mssqlclient.py Administrator@10.129.201.248 
 ```
-
+#### dbreaver (GUI that support multiple Databases)
+```shell
+dbreaver &
+```
+---
+## From Windows
+#### SQLCMD
+```cmd
+sqlcmd -S 10.129.20.13 -U username -P Password123
+```

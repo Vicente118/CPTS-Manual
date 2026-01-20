@@ -1,0 +1,17 @@
+{
+	"nodes":[
+		{"id":"d47decb0125fdc08","x":-400,"y":520,"width":1000,"height":820,"color":"5","type":"group","label":"Subnet 192.168.0.0/24"},
+		{"id":"8ebc8f545c07d997","x":-400,"y":0,"width":1000,"height":800,"color":"3","type":"group","label":"Subnet 175.162.10.0/24"},
+		{"id":"d631cdb6726d6bed","type":"group","x":-400,"y":-340,"width":1000,"height":580,"color":"4","label":"Subnet 152.20.20.0/24"},
+		{"id":"2cfc8b77aa1307cd","type":"text","text":"First Pivot\n10.10.10.15\n152.20.20.60","x":-30,"y":-200,"width":250,"height":80,"color":"4"},
+		{"id":"d998f66557cb7905","type":"text","text":"Second Pivot\n152.20.20.13\n175.162.10.12","x":-30,"y":40,"width":250,"height":80,"color":"3"},
+		{"id":"b2b71bd124f6d284","type":"text","text":"Third Pivot\n175.162.10.16\n192.168.0.10","x":-30,"y":640,"width":250,"height":80,"color":"#4e9bca"},
+		{"id":"f6f82ca60294b6c1","type":"text","text":"HOST\n192.178.0.15","x":-30,"y":920,"width":250,"height":85,"color":"#4e9bca"},
+		{"id":"76d7d8ce707a1b32","type":"text","text":"ATTACKER\n10.10.10.10","x":-30,"y":-560,"width":250,"height":80,"color":"1"}
+	],
+	"edges":[
+		{"id":"7b7c0920882a8ce3","fromNode":"76d7d8ce707a1b32","fromSide":"bottom","toNode":"2cfc8b77aa1307cd","toSide":"top"},
+		{"id":"9278ee6356e08466","fromNode":"d998f66557cb7905","fromSide":"bottom","toNode":"b2b71bd124f6d284","toSide":"top"},
+		{"id":"cd8fafc37d973e14","fromNode":"2cfc8b77aa1307cd","fromSide":"bottom","toNode":"d998f66557cb7905","toSide":"top"}
+	]
+}

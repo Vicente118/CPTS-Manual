@@ -47,6 +47,7 @@
 > [!summary]- 1.5 Active Directory Enumeration
 > [[Hosts Enumeration]]
 > [[User Enumeration]]
+> [[Enumeration With Credentials]]
 > [[SMB Enumeration]]
 > [[Password Policy Enumeration]]
 > [[Enumerating Security Controls]]
@@ -77,21 +78,12 @@
 > [!summary]- 3.1 Service Exploitation
 > - [[FTP 21]]
 > - [[SMB 139,445]]
-> - [[NFS 2049]]
 > - [[DNS 53]]
 > - [[SMTP 25,465,587]]
 > - [[IMAP - POP3 143,993 - 110,995]]
-> - [[SNMP 161,162]]
 > - [[MySQL 3306]]
 > - [[MSSQL 1433,2433]]
-> - [[Oracle TNS 1521]]
-> - [[IPMI 623]]
-> - [[SSH 22]]
-> - [[RSync 873]]
-> - [[R-Services 512,513,514]]
 > - [[RDP 3389]]
-> - [[WinRM 5985]]
-> - [[WMI 135]]
 
 > [!summary]- 3.2 Web Exploitation
 > - [[HTTP Basic Auth Brute Force]]
@@ -123,7 +115,7 @@
 > - [[Other Applications]]
 
 > [!summary]- 3.4 Active Directory Attacks
-> - [[Network Poisoning]]
+> - [[LLMNR & NBT-NS Poisoning]]
 > - [[Password Spraying & Credential Stuffing]]
 > - [[Kerberoasting from Linux]]
 > - [[Kerberoasting from Windows]]
@@ -238,12 +230,6 @@
 
 > [!summary]- 5.4 Pivoting
 > [[Ligolo]]
-> [[Local Port Forwarding]]
-> [[Dynamic Port Forwarding]]
-> [[Reverse Port Forwarding]]
-> [[Meterpreter]]
-> [[Chisel]]
-> [[Netsh]]
 
 > [!summary]- 5.5 Misc
 > [[Credentials Hunting in Network Traffic]]
