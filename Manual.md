@@ -53,6 +53,7 @@
 > [[Enumerating Security Controls]]
 > [[ACL Enumeration]]
 > [[Bloodhound]]
+> [[Trust Relationships Enumeration]]
 > [[Powerview]]
 
 ---
@@ -120,9 +121,9 @@
 > - [[Kerberoasting from Linux]]
 > - [[Kerberoasting from Windows]]
 > - [[ASREPRoasting]]
-> - [[Group Policy Preferences Passwords]]
+> - [[Group Policy Preferences (GPP) Passwords]]
+> - [[Group Policy Object (GPO) Abuse]]
 > - [[ACL Abuse]]
-> - [[SMB Hash Stealing]]
 > - [[DCSync]]
 > - [[noPac]]
 > - [[PrintNightmare]]
@@ -221,7 +222,7 @@
 > [!summary]- 5.3 Active Directory Lateral Movement
 > [[NTDS.dit Dump]]
 > [[RDP Lateral Movement]]
-> [[Powershell Remoting]]
+> [[WinRM - Powershell Remoting]]
 > [[MSSQL Server]]
 > [[Double Hop Problem]]
 > [[Password Spraying & Credential Stuffing]]
