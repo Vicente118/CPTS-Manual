@@ -85,6 +85,7 @@
 > - [[MySQL 3306]]
 > - [[MSSQL 1433,2433]]
 > - [[RDP 3389]]
+> - [[Login Brute Force]]
 
 > [!summary]- 3.2 Web Exploitation
 > - [[HTTP Basic Auth Brute Force]]
@@ -98,7 +99,8 @@
 > - [[XXE]]
 > - [[CGI Shellshock]]
 > - [[Mass Assignement]]
-> - [[Tools]]
+> - [[Burp Suite]]
+> - [[Ffuf]]
 
 > [!summary]- 3.3 Application Exploitation
 > - [[Wordpress Exploitation]]
