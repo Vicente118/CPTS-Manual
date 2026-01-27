@@ -1,3 +1,4 @@
+*Tips for stability*: `sudo ip link set tun0 mtu 1000`
 ## First Pivot  (10.10.10.15 / 152.20.20.60)
 #### Create Interface
 ```shell

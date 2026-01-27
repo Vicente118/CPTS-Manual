@@ -92,6 +92,7 @@
 > - [[Login Form Brute Force]]
 > - [[XSS]]
 > - [[SQL Injection]]
+> - [[SQLMap]]
 > - [[LFI]]
 > - [[Command Injection]]
 > - [[HTTP Verb Tampering]]
