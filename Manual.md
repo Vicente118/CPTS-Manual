@@ -245,6 +245,12 @@
 ---
 ## 6 - NetExec 
 
+> [!summary]- 6.1 NetExec
+> [[NetExec Basics]]
+> [[NetExec]]
 
 ---
 ## 7 - BloodyAD
+
+> [!summary]- 7.1 BloodyAD
+> [[BloodyAD]]
