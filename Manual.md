@@ -2,7 +2,6 @@
 
 > [!summary]- 1.1 Tools
 > - [[Nmap]]
-> - [[tcpdump]]
 
 > [!summary]- 1.2 Services Enumeration  
 > - [[FTP]]
@@ -160,7 +159,6 @@
 > [[PATH Abuse]]
 > [[Docker]]
 > [[Kubernetes]]
-> [[Passwd - Shadow]]
 > [[Escape Restricted Shells]]
 > [[Tmux Session Hijacking]]
 > [[Shared Libraries]]
@@ -174,8 +172,9 @@
 
 > [!summary]- 4.4 Windows Privilege Escalation
 > [[Windows Host Recon]]
-> [[Rights & Privileges]]
-> [[Users & Groups]]
+> [[Installed Applications]]
+> [[Traffic Capture]]
+> [[Monitoring Process Command Line]]
 > [[Legacy Operating Systems]]
 > [[SeImpersonate & SeAssignPrimaryToken]]
 > [[SeDebugPrivilege]]
@@ -190,24 +189,23 @@
 > [[Scheduled Tasks]]
 > [[Credential Hunting]]
 > [[Always Install Elevated]]
-> [[Unquoted Service Path]]
 > [[Vulnerable Windows Services]]
 > [[Cookie Stealing]]
+> [[Clipboard]]
+> [[Windows Certificate Dialog CVE-2019-1388]]
 > [[Weak Service Permissions]]
-> [[Permissive Registry ACLs]]
-> [[Modifiable Registry Autorun Binary]]
 > [[Kernel Exploits]]
+> [[Backups Roles and Services]]
 > [[VMDK, VHD & VHDX Files]]
-> [[Malicious SCF and lnk Files]]
+> [[Malicious SCF and LNK Files]]
 > [[Restic Backup Attack]]
 > [[Citrix Breakout]]
 > [[Bypassing UAC]]
-> [[Payloads]]
+> [[LOLBAS]]
 
 > [!summary]- 4.5 Tools & Misc
 > [[Hashcat]]
 > [[John The Ripper]]
-> [[Netcat]]
 > [[Mouting Bitlocker Drive (.vhd)]]
 
 ---
@@ -247,7 +245,8 @@
 
 > [!summary]- 6.1 NetExec
 > [[NetExec Basics]]
-> [[NetExec]]
+> [[NetExec Enumeration]]
+> [[NetExec ASREPRoasting]]
 
 ---
 ## 7 - BloodyAD

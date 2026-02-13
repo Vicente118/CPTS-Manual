@@ -8,17 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "9be8ae15fe76017c",
+            "id": "568e3fd951590e2a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NetExec.md",
+                "file": "Manual.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "NetExec"
+              "title": "Manual"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "crackmapexec",
+                "query": "always",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NetExec.md",
+                "file": "Manual.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for NetExec"
+              "title": "Backlinks for Manual"
             }
           },
           {
@@ -195,35 +195,37 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "9be8ae15fe76017c",
+  "active": "568e3fd951590e2a",
   "lastOpenFiles": [
-    "NetExec.md",
+    "6. NetExec/NetExec ASREPRoasting.md",
     "Manual.md",
-    "6. NetExec/NetExec Basics.md",
-    "Methodologies/5. Windows Privilege Escalation Methodology.md",
-    "3. Exploitation/Service Exploitation/MSSQL 1433,2433.md",
-    "5. Lateral Movement & Pivoting/Active Directory Lateral Movement/MSSQL Server.md",
-    "1. Information Gathering/Service Enumeration/MSSQL.md",
-    "Methodologies/1. Reconnaissance & Host Discovery.md",
-    "Methodologies/2. Web Server Methodology.md",
-    "Methodologies/3. Active Directory Methodology.md",
-    "7. BloodyAD/BloodyAD.md",
-    "Methodologies/4. Linux Privilege Escalation Methodology.md",
-    "4. Post-Exploitation/Windows Privilege Escalation/Kernel Exploits.md",
-    "4. Post-Exploitation/Windows Privilege Escalation/Weak Service Permissions.md",
-    "4. Post-Exploitation/Windows Privilege Escalation/Group -> Hyper-V Administrators.md",
-    "4. Post-Exploitation/Windows Privilege Escalation/Group -> Server Operators.md",
-    "4. Post-Exploitation/Windows Privilege Escalation/Bypassing UAC.md",
-    "4. Post-Exploitation/Windows Privilege Escalation/Group -> Print Operators.md",
-    "4. Post-Exploitation/Windows Privilege Escalation/Group -> DnsAdmins.md",
-    "4. Post-Exploitation/Linux Privilege Escalation/Logrogate - LogRotten.md",
-    "4. Post-Exploitation/Windows Privilege Escalation/Group -> Event Log Readers.md",
-    "4. Post-Exploitation/Windows Privilege Escalation/Group -> Backup Operators.md",
-    "4. Post-Exploitation/Windows Privilege Escalation/SeTakeOwnerShipPrivilege.md",
-    "4. Post-Exploitation/Windows Privilege Escalation/SeDebugPrivilege.md",
-    "4. Post-Exploitation/Windows Privilege Escalation/SeImpersonate & SeAssignPrimaryToken.md",
-    "4. Post-Exploitation/Linux Privilege Escalation/Host Recon.md",
+    "6. NetExec/NetExec Enumeration.md",
+    "Methodologies/6. Reporting.md",
     "Pasted image 20260123111337.png",
+    "4. Post-Exploitation/Windows Privilege Escalation/Legacy Operating Systems.md",
+    "Methodologies/Untitled",
+    "Methodologies/5. Windows Privilege Escalation Methodology.md",
+    "4. Post-Exploitation/Windows Privilege Escalation/Weak Service Permissions.md",
+    "4. Post-Exploitation/Windows Privilege Escalation/LOLBAS.md",
+    "4. Post-Exploitation/Windows Privilege Escalation/VMDK, VHD & VHDX Files.md",
+    "4. Post-Exploitation/Windows Privilege Escalation/User & Computer Description Field.md",
+    "4. Post-Exploitation/Windows Privilege Escalation/Scheduled Tasks.md",
+    "4. Post-Exploitation/Windows Privilege Escalation/Restic Backup Attack.md",
+    "4. Post-Exploitation/Windows Privilege Escalation/Windows Certificate Dialog CVE-2019-1388.md",
+    "4. Post-Exploitation/Windows Privilege Escalation/Always Install Elevated.md",
+    "4. Post-Exploitation/Windows Privilege Escalation/Installed Applications.md",
+    "4. Post-Exploitation/Windows Privilege Escalation/Backups Roles and Services.md",
+    "4. Post-Exploitation/Windows Privilege Escalation/Cookie Stealing.md",
+    "4. Post-Exploitation/Windows Privilege Escalation/Clipboard.md",
+    "4. Post-Exploitation/Windows Privilege Escalation/Traffic Capture.md",
+    "4. Post-Exploitation/Windows Privilege Escalation/Monitoring Process Command Line.md",
+    "4. Post-Exploitation/Windows Privilege Escalation/Malicious SCF and LNK Files.md",
+    "4. Post-Exploitation/Windows Privilege Escalation/Citrix Breakout.md",
+    "4. Post-Exploitation/Windows Privilege Escalation/Bypassing UAC.md",
+    "4. Post-Exploitation/Windows Privilege Escalation/Credential Hunting.md",
+    "5. Lateral Movement & Pivoting/Pivoting/Pivoting Schema.canvas",
+    "4. Post-Exploitation/Windows Privilege Escalation/Vulnerable Windows Services.md",
+    "4. Post-Exploitation/Windows Privilege Escalation/Kernel Exploits.md",
     "Pasted image 20260123111212.png",
     "Pasted image 20260123111043.png",
     "4. Post-Exploitation/Linux Privilege Escalation/Untitled",
@@ -233,9 +235,7 @@
     "github.com/Vicente118",
     "github.com",
     "3. Exploitation/Web Exploitation",
-    "5. Lateral Movement & Pivoting/Pivoting/Pivoting Schema.canvas",
     "1. Information Gathering/Active Directory Enumeration",
-    "5. Lateral Movement & Pivoting/Pivoting",
-    "3. Exploitation/Service Exploitation"
+    "5. Lateral Movement & Pivoting/Pivoting"
   ]
 }
