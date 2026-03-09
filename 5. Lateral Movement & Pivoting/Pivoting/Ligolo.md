@@ -25,7 +25,7 @@ ligolo-ng >> session # Choose session
 ```
 #### Add Route for Ligolo Interface
 ```shell
-sudo ip add 152.20.20.0/24 dev ligolo
+sudo ip route add 152.20.20.0/24 dev ligolo
 ```
 
 ## Second Pivot  (152.20.20.13 / 175.162.10.12)
