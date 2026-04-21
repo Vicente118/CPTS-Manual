@@ -6,6 +6,11 @@ It allows users and applications to securely store credentials relevant to other
 - `%ProgramData%\Microsoft\Vault\`
 - `%SystemRoot%\System32\config\systemprofile\AppData\Roaming\Microsoft\Vault\`
 
+Command to list all the files for dpapi blod decryption:
+```powershell
+cmd /c "dir /S /AS C:\Users\<user>\AppData\Local\Microsoft\Vault & dir /S /AS C:\Users\<user>\AppData\Local\Microsoft\Credentials & dir /S /AS C:\Users\<user>\AppData\Local\Microsoft\Protect & dir /S /AS C:\Users\<user>\AppData\Roaming\Microsoft\Vault & dir /S /AS C:\Users\<user>\AppData\Roaming\Microsoft\Credentials & dir /S /AS C:\Users\<user>\AppData\Roaming\Microsoft\Protect"
+```
+
 It is possible to export Windows Vaults to `.crd` files either via Control Panel or with the following command. Backups created this way are encrypted with a password supplied by the user, and can be imported on other Windows systems.
 ```cmd
 C:\Users\sadams> rundll32 keymgr.dll,KRShowKeyMgr

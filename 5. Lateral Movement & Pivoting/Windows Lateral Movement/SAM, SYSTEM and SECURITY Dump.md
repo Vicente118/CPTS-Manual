@@ -60,7 +60,7 @@ Password: April2025!
 ```
 
 ---
-## Remote dumping & LSA Secrets
+## Remote dumping & LSA Secrets (EASIEST WAY)
 It is also possible to target LSA secrets over the network. This may allow us to extract credentials from running services, scheduled tasks, or applications that store passwords using LSA secrets.
 #### Dumping LSA secrets remotely
 ```shell

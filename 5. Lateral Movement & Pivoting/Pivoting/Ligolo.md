@@ -53,7 +53,7 @@ sudo ip link set ligolo-double up
 ```
 #### Add Route for ligolo-double Interface
 ```shell
-sudo ip add 175.162.10.0/24 dev ligolo-double
+sudo ip route add 175.162.10.0/24 dev ligolo-double
 ```
 #### Start Tunnel on Ligolo
 ```shell
@@ -77,8 +77,8 @@ Everything sent to our agent to port 4444 will be redirected to our machine on p
 ```
 #### Cleanup
 ```shell
-ip link set ligolo down
-ip link delete ligolo
+sudo ip link set ligolo down
+sudo ip link delete ligolo
 OR
 interface_delete --name ligolo
 # Safely deletes the ligolo TUN interface from your machine.

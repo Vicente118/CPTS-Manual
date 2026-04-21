@@ -38,4 +38,9 @@ You can navigate to `Edit > Find Packet` and enter the desired search query manu
 ./Pcredz -f demo.pcapng -t -v
 ```
 
+## TCPDump
+Listening for cleartext passwords.
+```bash
+tcpdump -i tun0 -s 65535 -w file.pcap
+```
 
